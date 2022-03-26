@@ -46,7 +46,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 TARGET_KERNEL_ADDITIONAL_FLAGS := DTC_EXT=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86/dtc/dtc
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/picasso
-TARGET_KERNEL_CONFIG := vendor/picasso_user_defconfig
+TARGET_KERNEL_CONFIG := meow_picasso_defconfig
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 
 # Platform
